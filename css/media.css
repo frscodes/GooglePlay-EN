@@ -102,6 +102,7 @@
     }
     main .main-listapps .listapps-cntr .listapps-info{
         margin-left: 23px;
+        position: relative;
     }
     main .main-listapps .listapps-cntr .listapps-img{
         width:110px;
@@ -121,6 +122,7 @@
         font-size:12px;
         margin-top:10px;
         border-radius:4px;
+        font-size: 16px;
     }
     main .main-listapps .listapps-cntr .listapps-info a{
         display: block;
@@ -128,12 +130,15 @@
         font-size: 14px;
         border-radius:5px;
         width:100px;
-        margin-top:30px;
+        /*margin-top:30px;*/
+        position: absolute;
+        bottom: 0;
+        height:25px;
     }
 }
 @media (max-width:394px){
     main .main-listapps .listapps-cntr .listapps-info a{
-        margin-top:17px;
+        /*margin-top:17px;*/
     }
     main .main-listapps .listapps-cntr .listapps-info span{
         margin-top:4px;
@@ -158,7 +163,7 @@
     }
     main .main-listapps .listapps-cntr .listapps-info a{
         font-size:12px;
-        margin-top:10px;
+        /*margin-top:10px; */
         width:80px;
         border-radius:4px;
     }
@@ -172,7 +177,7 @@
         font-size: 10px;
     }
     main .main-listapps .listapps-cntr .listapps-info a{
-        margin-top:13px;
+        /*margin-top:13px;*/
     }
 }
 @media (max-width:297px){
