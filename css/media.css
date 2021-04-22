@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+@media (min-width:2000px) {
+    header{
+        height:1000px;
+    }
+}
+
+@media (max-width:990px){
+    /* HEADER */
+    header .hdr-info{
+        width:100%;
+        top:120px;
+    }
+    header .hdr-info .hdr-hi h1{
+        font-size:75px;
+    }
+    header .hdr-info .hdr-hi p{
+        font-size:25px;
+        margin-top:10px;
+    }
+    header .hdr-info .hdr-btn{
+        width:145px;
+    }
+    header .hdr-info .hdr-btn a{
+        display: block;
+        margin:50px 0;
+        text-align: center;
+    }
+    /* MAIN */
+    /* Special app */
+    main .main-spcl-app{
+        width:90%;
+        max-width:350px;
+        min-width:80%;
+    }
+    main .main-title h1{
+        font-size:50px;
+    }
+    main .main-spcl-app .spcl-app-cntr{
+        display: block;
+        width: 272px;
+        height:625px;
+        padding: 35px;
+    }
+    main .main-spcl-app .spcl-app-cntr .spcl-icon-app{
+        margin:0 auto;
+        width:200px;
+        height:200px;
+    }
+    main .main-spcl-app .spcl-app-cntr .spcl-info-app{
+        margin:0;
+    }
+    main .main-spcl-app .spcl-app-cntr .spcl-icon-app img{
+        width:200px;
+        height:200px;
+    }
+    main .main-spcl-app .spcl-app-p{
+        width:272px;
+        margin:0 auto;
+        margin-bottom:30px;
+        font-size:25px;
+    }
+    main .main-spcl-app .spcl-app-cntr .spcl-info-app h4 {
+        font-size:30px;
+        margin-top:25px;
+        margin-bottom: 14px;
+    }
+    main .main-spcl-app .spcl-app-cntr .spcl-info-app span{
+        margin-top:5px;
+    }
+    main .main-spcl-app .spcl-app-cntr .spcl-info-app p{
+        height:auto;
+    }
+    main .main-spcl-app .spcl-app-cntr .spcl-info-app p{
+        margin-bottom:25px;
+        margin-top:25px;
+    }
+    /* FOOTER */
+    footer .footer{
+        font-size:14px;
+    }
+}
+@media (max-width:480px){
+
+    /* MAIN */
+    /* LIST APPS */
+    main .main-listapps{
+        display: block;
+        width:90%;
+    }
+    main .main-listapps article{
+        margin:0 auto;
+        width:100%;
+        margin-bottom:50px;
+    }
+    main .main-listapps .listapps-cntr{
+        display: flex;
+        padding:18px;
+        margin:0;
+        width:100%;
+    }
+    main .main-listapps .listapps-cntr .listapps-info{
+        margin-left: 23px;
+    }
+    main .main-listapps .listapps-cntr .listapps-img{
+        width:110px;
+        height:110px;
+    }
+    main .main-listapps .listapps-cntr .listapps-img img{
+        width:110px;
+    }
+    main .main-listapps .listapps-cntr .listapps-info h4{
+        font-size:19px;
+        margin:0;
+        margin-top:5px;
+    }
+    main .main-listapps .listapps-cntr .listapps-info span{
+        margin: 0;
+        padding:3px 9px;
+        font-size:18px;
+        margin-top:10px;
+        border-radius:4px;
+    }
+    main .main-listapps .listapps-cntr .listapps-info a{
+        display: block;
+        padding:4px 23px;
+        font-size: 14px;
+        border-radius:5px;
+        width:100px;
+        margin-top:30px;
+    }
+}
+@media (max-width:394px){
+    main .main-listapps .listapps-cntr .listapps-info a{
+        margin-top:17px;
+    }
+    main .main-listapps .listapps-cntr .listapps-info span{
+        margin-top: 5px;
+    }
+}
+@media (max-width:365px){ 
+    main .main-listapps .listapps-cntr .listapps-img{
+        width:80px;
+        height:80px;
+        border-radius:6px;
+    }
+    main .main-listapps .listapps-cntr .listapps-img img{
+        width:80px;
+        border-radius:5px;
+    }
+    main .main-listapps .listapps-cntr .listapps-info h4{
+        font-size:14px;
+    }
+    main .main-listapps .listapps-cntr .listapps-info span{
+        font-size:12px;
+        margin-top:7px;
+    }
+    main .main-listapps .listapps-cntr .listapps-info a{
+        font-size:12px;
+        margin-top:16px;
+        width:80px;
+        border-radius:4px;
+    }
+}
+@media (max-width:315px){
+    main .main-listapps .listapps-cntr .listapps-info h4{
+        font-size:12px;
+    }
+    main .main-listapps .listapps-cntr .listapps-info span{
+        margin-top:8px;
+        font-size: 10px;
+    }
+    main .main-listapps .listapps-cntr .listapps-info a{
+        margin-top:19px;
+    }
+}
+@media (max-width:297px){
+    main .main-listapps{
+        width:97%;
+    }
+    main .main-listapps .listapps-cntr .listapps-info{
+        margin-left:10px;
+    }
+}
+
+/* THANKS:
+             https://mediag.com/blog/popular-screen-resolutions-designing-for-all/ 
+             http://whatismyscreenresolution.net/multi-screen-test
+*/
