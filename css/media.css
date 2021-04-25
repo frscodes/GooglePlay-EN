@@ -135,6 +135,23 @@
         bottom: 0;
         height:30px;
     }
+
+    /* FOOTER */
+    footer .footer{
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        padding: 20px 0;
+    }
+    footer .footer .copyright{
+        font-size: 16px;
+    }
+    footer .footer nav{
+        margin-top:15px;
+        font-size: 20px;
+        height: auto;
+    }
+    footer .footer nav a{margin:0 8px;}
 }
 @media (max-width:394px){
     main .main-listapps .listapps-cntr .listapps-info a{
