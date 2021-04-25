@@ -29,7 +29,9 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #227aff; 
 }
-
+html{
+  scroll-behavior: smooth;
+}
 /**********************/
 header{
   width:100%;
