@@ -40,25 +40,29 @@
 <!-- ICONS -->
 <script src="https://kit.fontawesome.com/1a4bb73a43.js" crossorigin="anonymous"></script>
 <!------------>
+
+<!-- SCRIPTS-->
 <script>
    window.onload = function(){
       var headerColor = document.getElementById("header");
       headerColor.style.backgroundImage = "url('img/background.jpg')";
    }
 </script>
+<script src="js/control.js"></script>
+<!------------>
 </head>
 <body>
    <!-- START HEADER - BACKGROUND -->
    <header id=header>
       <div class="hdr-info">
          <nav class="hdr-icons">
-            <a href="#"><i class="fab fa-facebook-square"></i></a>
-            <a href="#"><i class="fab fa-twitter-square"></i></a>
-            <a href="#"><i class="fab fa-instagram-square"></i></a>  
+            <a class="social" href="#"><i class="fab fa-facebook-square"></i></a>
+            <a class="social" href="#"><i class="fab fa-twitter-square"></i></a>
+            <a class="social" href="#"><i class="fab fa-instagram-square"></i></a>  
          </nav>
          <div class="hdr-hi">
             <h1>Welcome</h1>
-            <p>Im<span><a href="#"> your name</a></span></p>
+            <p>Im <span><a class="googlePlay" href="#">your google play</a></span></p>
          </div>
          <div class="hdr-btn">
             <a class="my-apps-btn" href="#more-apps">My apps</a>
@@ -212,10 +216,10 @@
       <section class="footer">
          <p class="copyright">All Rights Reserved - YOUR-NAME 2021 © BY: <a href="https://frscodes.github.io/copyright/">FrsCodes</a></p>
          <nav>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-google-play"></i></a>
+            <a class="social" href="#"><i class="fab fa-facebook"></i></a>
+            <a class="social" href="#"><i class="fab fa-instagram"></i></a>
+            <a class="social" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="googlePlay" href="#"><i class="fab fa-google-play"></i></a>
          </nav>
       </section>
    </footer>

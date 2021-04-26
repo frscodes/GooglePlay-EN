@@ -262,6 +262,8 @@ main .main-listapps .listapps-cntr .listapps-info a{
 /* FOOTER */
 footer{
   background-color: #E8F0FE;
+  max-width:4053px;
+  margin-top: 100px;
 }
 footer .footer{
   display: flex;
