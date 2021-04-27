@@ -75,6 +75,7 @@
     main .main-spcl-app .spcl-app-cntr .spcl-info-app p{
         margin-bottom:25px;
         margin-top:25px;
+        width:100%;
     }
     /* FOOTER */
     footer .footer{

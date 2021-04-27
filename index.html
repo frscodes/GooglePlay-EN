@@ -4,7 +4,13 @@
 <meta charset="utf-8">
 <title>FrsCodes google play</title>
 <!-- JS -->
-<script src="js/hdrscript.js"></script>
+<script>
+   window.onload = function(){
+      var headerColor = document.getElementById("header");
+      headerColor.style.backgroundImage = "url('img/background.jpg')";
+   }
+</script>
+<script src="js/control.js"></script>
 <!---------------------------->
 
 <!-- STYLE & FAVICON -->
@@ -40,16 +46,6 @@
 <!-- ICONS -->
 <script src="https://kit.fontawesome.com/1a4bb73a43.js" crossorigin="anonymous"></script>
 <!------------>
-
-<!-- SCRIPTS-->
-<script>
-   window.onload = function(){
-      var headerColor = document.getElementById("header");
-      headerColor.style.backgroundImage = "url('img/background.jpg')";
-   }
-</script>
-<script src="js/control.js"></script>
-<!------------>
 </head>
 <body>
    <!-- START HEADER - BACKGROUND -->
@@ -62,7 +58,7 @@
          </nav>
          <div class="hdr-hi">
             <h1>Welcome</h1>
-            <p>Im <span><a class="googlePlay" href="#">your google play</a></span></p>
+            <p><span><a class="googlePlay" href="#">your google play</a></span></p>
          </div>
          <div class="hdr-btn">
             <a class="my-apps-btn" href="#more-apps">My apps</a>
@@ -80,7 +76,7 @@
       <!-- SPECIAL APP -->
       <!-- TITLE 01 -->
       <section class="main-title">
-         <h1>Choose your app<br> now</h1>
+         <h1 class="h1-title">Choose your app<br> now</h1>
       </section>
       <!-- START SPECIAL APP -->
       <section class="main-spcl-app">
@@ -93,20 +89,20 @@
          <div class="spcl-app-cntr">
             <!-- PICTUR -->
             <div class="spcl-icon-app">
-               <img src="img/android.jpg">
+               <img class="spclApp" src="img/android.jpg">
             </div>
 
             <!-- Title, description and download -->
             <div class="spcl-info-app">
-               <!-- add name for app-->
-               <h4>Lorem ipsum dolor sit amet</h4>
-               <span>free</span>
-               <p>
+               <!--name for app-->
+               <h4 class="spclApp">Lorem ipsum dolor sit amet</h4>
+               <span class="spclApp">free</span>
+               <p class="spclApp">
                   Lorem ipsum dolor sit amet,<br>
                   consectetur adipiscing elit.<br>
                   Proin sit amet erat eget eros placerat ullamcorper in sit amet dui. 
                </p>
-               <a href="#">Download</a>
+               <a class="spclApp" href="#">Download</a>
             </div>
          </div>
       </section>
@@ -114,7 +110,7 @@
       <!-- LIST APPS -->
       <!-- TITLE 02 -->
       <section id="more-apps" class="main-title">
-         <h1>More<br> applications</h1>
+         <h1 class="h1-title">More<br> applications</h1>
       </section>
       <!-- START LIST APPS -->
       <section class="main-listapps">
