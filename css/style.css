@@ -204,6 +204,9 @@ main .main-spcl-app .spcl-app-cntr .spcl-info-app  a{
 } main .main-spcl-app .spcl-app-cntr .spcl-info-app  a:hover{background-color:#3a89ff; box-shadow: 0px 1px 6px #698cc1;}
 
 /* LIST APPS */
+main #editApp01{
+  display: none;
+}
 main .main-listapps{
   width:80%;
   max-width: 1200px;

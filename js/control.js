@@ -55,3 +55,100 @@ appButtoun = "download";
 //The link for the application from the Google Play Store.
 appLink = "#";
 /************** END *************/
+
+
+/************** 05 - FOR ADD AND EDIT APPS *************/
+app01 = "show";
+imgApp01 = "";
+nameApp01 = "";
+statusApp01 = "";
+btnApp01 = "";
+linkApp01 = "";
+
+
+
+app02 = "show";
+imgApp02 = "";
+nameApp02 = "";
+statusApp02 = "";
+btnApp02 = "";
+linkApp02 = "";
+
+app03 = "show";
+imgApp03 = "";
+nameApp03 = "";
+statusApp03 = "";
+btnApp03 = "";
+linkApp03 = "";
+
+app04 = "show";
+imgApp04 = "";
+nameApp04 = "";
+statusApp04 = "";
+btnApp04 = "";
+linkApp04 = "";
+
+app05 = "show";
+imgApp05 = "";
+nameApp05 = "";
+statusApp05 = "";
+btnApp05 = "";
+linkApp05 = "";
+
+app06 = "show";
+imgApp06 = "";
+nameApp06 = "";
+statusApp06 = "";
+btnApp06 = "";
+linkApp06 = "";
+
+app07 = "show";
+imgApp07 = "";
+nameApp07 = "";
+statusApp07 = "";
+btnApp07 = "";
+linkApp07 = "";
+
+app08 = "show";
+imgApp08 = "";
+nameApp08 = "";
+statusApp08 = "";
+btnApp08 = "";
+linkApp08 = "";
+
+app09 = "show";
+imgApp09 = "";
+nameApp09 = "";
+statusApp09 = "";
+btnApp09 = "";
+linkApp09 = "";
+
+app10 = "show";
+imgApp10 = "";
+nameApp10 = "";
+statusApp10 = "";
+btnApp10 = "";
+linkApp10 = "";
+
+app11 = "show";
+imgApp11 = "";
+nameApp11 = "";
+statusApp11 = "";
+btnApp11 = "";
+linkApp11 = "";
+
+app12 = "show";
+imgApp12 = "";
+nameApp12 = "";
+statusApp12 = "";
+btnApp12 = "";
+linkApp12 = "";
+
+/*
+app00 = "show";
+imgApp00 = "";
+nameApp00 = "";
+statusApp00 = "";
+btnApp00 = "";
+linkApp00 = "";
+*/
