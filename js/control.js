@@ -36,29 +36,29 @@ title02 = "More" + "<br>" + "applications";
 
 //First of all, you should put all the pictures of your applications inside a folder: "img"
 //In order to modify the image, copy its path from img folder: "img -> name folder" "yourimage.jpg -> your img"
-appImg = "img/android.jpg"; 
+appImg = ""; 
 
 //Modify the name or title of the application from here.
-appName = "Lorem ipsum dolor sit amet"; 
+appName = ""; 
 
 //Status of the application, you can write the price of the application or write "free" if the application is really free.
-appStatus = "free"; 
+appStatus = ""; 
 
 //Medium description, clarifying the mission of your application.
-appDescription = "Lorem ipsum dolor sit amet," 
-                + "consectetur adipiscing elit." 
-                + "Proin sit amet erat eget eros placerat ullamcorper in sit amet dui."; 
+appDescription = "" 
+                + "" 
+                + ""; 
 
 //Name the button, maybe "download" if it's free or "buy" if it's paid.
-appButtoun = "download"; 
+appButtoun = ""; 
 
 //The link for the application from the Google Play Store.
-appLink = "#";
+appLink = "";
 /************** END *************/
 
 
 /************** 05 - FOR ADD AND EDIT APPS *************/
-app01 = "show";
+app01 = "hide";
 imgApp01 = "";
 nameApp01 = "";
 statusApp01 = "";
@@ -67,88 +67,97 @@ linkApp01 = "";
 
 
 
-app02 = "show";
+app02 = "hide";
 imgApp02 = "";
 nameApp02 = "";
 statusApp02 = "";
 btnApp02 = "";
 linkApp02 = "";
 
-app03 = "show";
+app03 = "hide";
 imgApp03 = "";
 nameApp03 = "";
 statusApp03 = "";
 btnApp03 = "";
 linkApp03 = "";
 
-app04 = "show";
+app04 = "hide";
 imgApp04 = "";
 nameApp04 = "";
 statusApp04 = "";
 btnApp04 = "";
 linkApp04 = "";
 
-app05 = "show";
+app05 = "hide";
 imgApp05 = "";
 nameApp05 = "";
 statusApp05 = "";
 btnApp05 = "";
 linkApp05 = "";
 
-app06 = "show";
+app06 = "hide";
 imgApp06 = "";
 nameApp06 = "";
 statusApp06 = "";
 btnApp06 = "";
 linkApp06 = "";
 
-app07 = "show";
+app07 = "hide";
 imgApp07 = "";
 nameApp07 = "";
 statusApp07 = "";
 btnApp07 = "";
 linkApp07 = "";
 
-app08 = "show";
+app08 = "hide";
 imgApp08 = "";
 nameApp08 = "";
 statusApp08 = "";
 btnApp08 = "";
 linkApp08 = "";
 
-app09 = "show";
+app09 = "hide";
 imgApp09 = "";
 nameApp09 = "";
 statusApp09 = "";
 btnApp09 = "";
 linkApp09 = "";
 
-app10 = "show";
+app10 = "hide";
 imgApp10 = "";
 nameApp10 = "";
 statusApp10 = "";
 btnApp10 = "";
 linkApp10 = "";
 
-app11 = "show";
+app11 = "hide";
 imgApp11 = "";
 nameApp11 = "";
 statusApp11 = "";
 btnApp11 = "";
 linkApp11 = "";
 
-app12 = "show";
+app12 = "hide";
 imgApp12 = "";
 nameApp12 = "";
 statusApp12 = "";
 btnApp12 = "";
 linkApp12 = "";
 
+
 /*
-app00 = "show";
-imgApp00 = "";
-nameApp00 = "";
-statusApp00 = "";
-btnApp00 = "";
-linkApp00 = "";
+appXX = "hide";
+imgAppXX = "";
+nameAppXX = "";
+statusAppXX = "";
+btnAppXX = "";
+linkAppXX = "";
 */
+/************** END *************/
+
+
+
+/************** 06 - FOR COPYRIGHT *************/
+//You can add your own copyright text in quotation marks.
+yourCopyright = "© All Rights Reserved - YOUR-NAME 2021";
+/************** END *************/

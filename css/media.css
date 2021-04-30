@@ -50,6 +50,7 @@
     }
     main .main-spcl-app .spcl-app-cntr .spcl-info-app{
         margin:0;
+        height: 327px;
     }
     main .main-spcl-app .spcl-app-cntr .spcl-icon-app img{
         width:200px;
@@ -73,8 +74,7 @@
         height:auto;
     }
     main .main-spcl-app .spcl-app-cntr .spcl-info-app p{
-        margin-bottom:25px;
-        margin-top:25px;
+        margin: 25px 0;
         width:100%;
     }
     /* FOOTER */
@@ -85,7 +85,7 @@
 @media (max-width:480px){
 
     /* MAIN */
-    /* LIST APPS */
+    /* apps list */
     main .main-listapps{
         display: block;
         width:90%;

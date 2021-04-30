@@ -34,7 +34,7 @@ var nameAppFeatured, appImg, appName, appStatus, appDescription, appButtoun, app
     nameAppFeatured[4].href = appLink;
 
 
-//FOR EDIT LIST APPS
+//FOR EDIT APPS LIST
 //ITEM01
 var editAPP01, app01, imgApp01, nameApp01, statusApp01, btnApp01, linkApp01;
     editAPP01 = document.getElementsByClassName("editApp01");
@@ -82,7 +82,7 @@ var editAPP03, app03, imgApp03, nameApp03, statusApp03, btnApp03, linkApp03;
     editAPP03[3].href = linkApp03;
 
 
-//ITEM00
+//ITEM04
 var editAPP04, app04, imgApp04, nameApp04, statusApp04, btnApp04, linkApp04;
     editAPP04 = document.getElementsByClassName("editApp04");
     if (app04 === "show"){
@@ -210,7 +210,6 @@ var editAPP11, app11, imgApp11, nameApp11, statusApp11, btnApp11, linkApp11;
     editAPP11[3].href = linkApp11;
 
 
-
 //ITEM12
 var editAPP12, app12, imgApp12, nameApp12, statusApp12, btnApp12, linkApp12;
     editAPP12 = document.getElementsByClassName("editApp12");
@@ -227,18 +226,24 @@ var editAPP12, app12, imgApp12, nameApp12, statusApp12, btnApp12, linkApp12;
     editAPP12[3].href = linkApp12;
 
 /*
-//ITEM00
-var editAPP00, app00, imgApp00, nameApp00, statusApp00, btnApp00, linkApp00;
-    editAPP00 = document.getElementsByClassName("editApp00");
-    if (app00 === "show"){
-        document.getElementById("editApp00").style.display = "block";
+//ITEMXX
+var editAPPXX, appXX, imgAppXX, nameAppXX, statusAppXX, btnAppXX, linkAppXX;
+    editAPPXX = document.getElementsByClassName("editAppXX");
+    if (appXX === "show"){
+        document.getElementById("editAppXX").style.display = "block";
     }
-    else if (app00 === "hide"){
-        document.getElementById("editApp00").style.display = "none";
+    else if (appXX === "hide"){
+        document.getElementById("editAppXX").style.display = "none";
     };
-    editAPP00[0].src = imgApp00;
-    editAPP00[1].innerHTML = nameApp00;
-    editAPP00[2].innerHTML = statusApp00;
-    editAPP00[3].innerHTML = btnApp00;
-    editAPP00[3].href = linkApp00;
+    editAPPXX[0].src = imgAppXX;
+    editAPPXX[1].innerHTML = nameAppXX;
+    editAPPXX[2].innerHTML = statusAppXX;
+    editAPPXX[3].innerHTML = btnAppXX;
+    editAPPXX[3].href = linkAppXX;
 */
+
+
+//FOR COPYRIGHT 
+var copyright, yourCopyright;
+    copyright = document.getElementsByClassName("copyright");
+    copyright[0].innerHTML = yourCopyright;
