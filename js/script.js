@@ -2,8 +2,8 @@
 var social, facebook, instagram, twitter;
     social = document.getElementsByClassName("social");
     social[0].href = facebook;
-    social[1].href = instagram;
-    social[2].href = twitter;
+    social[1].href = twitter;
+    social[2].href = instagram;
     social[3].href = facebook;
     social[4].href = instagram;
     social[5].href = twitter;
