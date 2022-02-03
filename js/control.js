@@ -36,21 +36,19 @@ title02 = "More" + "<br>" + "applications";
 
 //First of all, you should put all the pictures of your applications inside a folder: "img"
 //In order to modify the image, copy its path from img folder: "img -> name folder" "yourimage.jpg -> your img"
-appImg = ""; 
+appImg = "img/android.jpg"; 
 
 //Modify the name or title of the application from here.
-appName = ""; 
+appName = "Name App"; 
 
 //Status of the application, you can write the price of the application or write "free" if the application is really free.
-appStatus = ""; 
+appStatus = "free"; 
 
 //Medium description, clarifying the mission of your application.
-appDescription = "" 
-                + "" 
-                + ""; 
+appDescription = "Description";
 
 //Name the button, maybe "download" if it's free or "buy" if it's paid.
-appButtoun = ""; 
+appButtoun = "Download"; 
 
 //The link for the application from the Google Play Store.
 appLink = "";
@@ -59,7 +57,7 @@ appLink = "";
 
 /************** 05 - FOR ADD AND EDIT APPS *************/
 //Add the number of apps you own 
-apps = "10";
+apps = "3";
 //In order to modify￼ the details of each applications, please open this file: js/control-ListApps.js
 /************** END *************/
 
